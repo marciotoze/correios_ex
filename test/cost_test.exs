@@ -36,7 +36,7 @@ defmodule CorreiosEx.CostTest do
           cepOrigem: "70902001",
           psObjeto: 300,
           coProduto: "04162",
-          nuRequisicao: "123"
+          nuRequisicao: "234"
         }
       ]
     }

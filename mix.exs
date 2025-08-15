@@ -47,7 +47,11 @@ defmodule CorreiosEx.MixProject do
       main: "CorreiosEx",
       extras: ["README.md"],
       groups_for_modules: [
-        Resources: [CorreiosEx.Auth]
+        Resources: [
+          CorreiosEx.Auth,
+          CorreiosEx.Cost,
+          CorreiosEx.ETA
+        ]
       ]
     ]
   end
