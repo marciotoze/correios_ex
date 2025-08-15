@@ -1,0 +1,46 @@
+[
+  {
+    "request": {
+      "options": [],
+      "body": "\"\"",
+      "url": "https://api.correios.com.br/prazo/v2/internacional/importacao/45110?cepDestino=71930000&cepOrigem=70902000",
+      "headers": {
+        "User-agent": "correios_ex",
+        "Authorization": "***",
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "request_body": ""
+    },
+    "response": {
+      "binary": false,
+      "type": "ok",
+      "body": "{\"coProduto\":\"45110\",\"prazoEntrega\":2,\"dataMaxima\":\"2025-08-19T23:58:00\",\"entregaDomiciliar\":\"S\",\"entregaSabado\":\"N\"}",
+      "headers": {
+        "Date": "Fri, 15 Aug 2025 06:50:07 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Vary": "Origin",
+        "X-RateLimit-Remaining": "54",
+        "X-RateLimit-Requested-Tokens": "1",
+        "X-RateLimit-Burst-Capacity": "55",
+        "X-RateLimit-Replenish-Rate": "50",
+        "x-internal-source": "2",
+        "x-gtw-uri-template": "/v2/internacional/importacao/{coProduto}",
+        "x-gtw-retry": "0",
+        "x-gtw-cluster": "prod2-bsb",
+        "x-gtw-user": "flinaimports",
+        "x-gtw-pfl": "PJ",
+        "x-gtw-service-id": "prazo",
+        "x-gtw-contrato": "9912515762",
+        "x-gtw-cartao": "0076056856",
+        "x-gtw-req-id": "YXo5tLSocbWN8uzTs2Gdn",
+        "x-gtw-span-id": "1",
+        "x-gtw-api-time": "64",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+      },
+      "status_code": 200
+    }
+  }
+]

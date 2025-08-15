@@ -17,12 +17,12 @@
       "type": "ok",
       "body": "{\"ambiente\":\"PRODUCAO\",\"id\":\"<ID>\",\"ip\":\"187.10.205.39, 192.168.1.131\",\"perfil\":\"PJ\",\"cnpj\":\"<CNPJ>\",\"categoria\":\"Bz0\",\"emissao\":\"2025-08-14T21:36:53\",\"expiraEm\":\"2025-08-15T21:36:53\",\"zoneOffset\":\"-03:00\",\"cartaoPostagem\":{\"contrato\":\"9912515762\",\"numero\":\"0076056856\",\"dr\":72,\"api\":[34,35,36,41,76,78,80,83,87,93,566,586,587],\"apis\":[{\"api\":34},{\"api\":35},{\"api\":36},{\"api\":41},{\"api\":76},{\"api\":78},{\"api\":80},{\"api\":83},{\"api\":87,\"grupos\":[{\"co\":\"2\",\"urls\":[\"*;.*\"]}]},{\"api\":93},{\"api\":566},{\"api\":586},{\"api\":587}]},\"token\":\"<TOKEN>\"}",
       "headers": {
-        "Date": "Fri, 15 Aug 2025 05:40:52 GMT",
+        "Date": "Fri, 15 Aug 2025 06:50:09 GMT",
         "Content-Type": "application/json",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
         "Vary": "Origin",
-        "X-RateLimit-Remaining": "7",
+        "X-RateLimit-Remaining": "8",
         "X-RateLimit-Requested-Tokens": "1",
         "X-RateLimit-Burst-Capacity": "9",
         "X-RateLimit-Replenish-Rate": "8",
@@ -42,9 +42,9 @@
         "x-gtw-user": "flinaimports",
         "x-gtw-pfl": "PJ",
         "x-gtw-service-id": "token",
-        "x-gtw-req-id": "7PDKvpJZ23CZ8KLXioqt0",
+        "x-gtw-req-id": "7KaA0YigSI3wjJE0RtHlj",
         "x-gtw-span-id": "1",
-        "x-gtw-api-time": "22"
+        "x-gtw-api-time": "21"
       },
       "status_code": 201
     }

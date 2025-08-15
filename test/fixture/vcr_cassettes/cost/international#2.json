@@ -17,7 +17,7 @@
       "type": "ok",
       "body": "[{\"coProduto\":\"45110\",\"pcBase\":\"100,00\",\"pcBaseGeral\":\"234,60\",\"peVariacao\":\"0,0000\",\"pcReferencia\":\"234,60\",\"vlBaseCalculoImposto\":\"234,60\",\"nuRequisicao\":\"123\",\"inPesoCubico\":\"N\",\"psCobrado\":\"300\",\"peAdValorem\":\"0,0150\",\"vlSeguroAutomatico\":\"200,00\",\"qtAdicional\":\"0\",\"pcFaixa\":\"234,60\",\"pcFaixaVariacao\":\"234,60\",\"pcProduto\":\"234,60\",\"pcFinal\":\"234,60\"},{\"coProduto\":\"45110\",\"pcBase\":\"100,00\",\"pcBaseGeral\":\"234,60\",\"peVariacao\":\"0,0000\",\"pcReferencia\":\"234,60\",\"vlBaseCalculoImposto\":\"234,60\",\"nuRequisicao\":\"123\",\"inPesoCubico\":\"N\",\"psCobrado\":\"300\",\"peAdValorem\":\"0,0150\",\"vlSeguroAutomatico\":\"200,00\",\"qtAdicional\":\"0\",\"pcFaixa\":\"234,60\",\"pcFaixaVariacao\":\"234,60\",\"pcProduto\":\"234,60\",\"pcFinal\":\"234,60\"}]",
       "headers": {
-        "Date": "Fri, 15 Aug 2025 05:50:53 GMT",
+        "Date": "Fri, 15 Aug 2025 06:50:03 GMT",
         "Content-Type": "application/json",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -34,9 +34,9 @@
         "x-gtw-service-id": "preco",
         "x-gtw-contrato": "9912515762",
         "x-gtw-cartao": "0076056856",
-        "x-gtw-req-id": "OeLVIuMQzGB6PnY0Xvz1A",
+        "x-gtw-req-id": "EdAJFrMJMADoFqxmauUAw",
         "x-gtw-span-id": "1",
-        "x-gtw-api-time": "34",
+        "x-gtw-api-time": "24",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
       },
       "status_code": 200

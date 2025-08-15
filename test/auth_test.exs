@@ -11,20 +11,20 @@ defmodule CorreiosEx.AuthTest do
   end
 
   test "by_user/1", %{basic_client: client} do
-    use_cassette "auth#by_user" do
+    use_cassette "auth/by_user#1" do
       assert {201, %{"token" => _, "expiraEm" => _}, _response} = by_user(client)
     end
   end
 
   test "by_postcard/1", %{basic_client: client} do
-    use_cassette "auth#by_postcard" do
+    use_cassette "auth/by_postcard#1" do
       assert {201, %{"token" => _, "expiraEm" => _, "cartaoPostagem" => _}, _response} =
                by_postcard(client, %{"numero" => "0076056856"})
     end
   end
 
   test "by_contract/1", %{basic_client: client} do
-    use_cassette "auth#by_contract" do
+    use_cassette "auth/by_contract#1" do
       assert {201, %{"token" => _, "expiraEm" => _, "contrato" => _}, _response} =
                by_contract(client, %{"numero" => "9912515762"})
     end

@@ -17,7 +17,7 @@
       "type": "ok",
       "body": "{\"ambiente\":\"PRODUCAO\",\"id\":\"<ID>\",\"ip\":\"187.10.205.39, 192.168.1.131\",\"perfil\":\"PJ\",\"cnpj\":\"<CNPJ>\",\"categoria\":\"Bz0\",\"emissao\":\"2025-08-14T22:25:42\",\"expiraEm\":\"2025-08-15T22:25:42\",\"zoneOffset\":\"-03:00\",\"contrato\":{\"numero\":\"9912515762\",\"dr\":72,\"api\":[34,35,41,76,78,87,566,586,587],\"apis\":[{\"api\":34},{\"api\":35},{\"api\":41},{\"api\":76},{\"api\":78},{\"api\":87,\"grupos\":[{\"co\":\"2\",\"urls\":[\"*;.*\"]}]},{\"api\":566},{\"api\":586},{\"api\":587}]},\"token\":\"<TOKEN>\"}",
       "headers": {
-        "Date": "Fri, 15 Aug 2025 05:40:52 GMT",
+        "Date": "Fri, 15 Aug 2025 06:50:08 GMT",
         "Content-Type": "application/json",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
@@ -41,9 +41,9 @@
         "x-gtw-user": "flinaimports",
         "x-gtw-pfl": "PJ",
         "x-gtw-service-id": "token",
-        "x-gtw-req-id": "wLuj0ydzd5gdj2NdEoN8w",
+        "x-gtw-req-id": "97EqwiE0GWhMLCzZkqEWa",
         "x-gtw-span-id": "1",
-        "x-gtw-api-time": "19"
+        "x-gtw-api-time": "20"
       },
       "status_code": 201
     }

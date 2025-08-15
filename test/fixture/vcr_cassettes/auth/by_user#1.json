@@ -17,12 +17,12 @@
       "type": "ok",
       "body": "{\"ambiente\":\"PRODUCAO\",\"id\":\"<ID>\",\"ip\":\"187.10.205.39, 192.168.1.131\",\"perfil\":\"PJ\",\"cnpj\":\"<CNPJ>\",\"categoria\":\"Id0\",\"emissao\":\"2025-08-14T21:37:00\",\"expiraEm\":\"2025-08-15T21:37:00\",\"zoneOffset\":\"-03:00\",\"token\":\"<TOKEN>\"}",
       "headers": {
-        "Date": "Fri, 15 Aug 2025 05:40:52 GMT",
+        "Date": "Fri, 15 Aug 2025 06:50:08 GMT",
         "Content-Type": "application/json",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
         "Vary": "Origin",
-        "X-RateLimit-Remaining": "6",
+        "X-RateLimit-Remaining": "7",
         "X-RateLimit-Requested-Tokens": "1",
         "X-RateLimit-Burst-Capacity": "9",
         "X-RateLimit-Replenish-Rate": "8",
@@ -40,7 +40,7 @@
         "x-gtw-user": "flinaimports",
         "x-gtw-pfl": "PJ",
         "x-gtw-service-id": "token",
-        "x-gtw-req-id": "LadGQofoRfDKEflAyVrVT",
+        "x-gtw-req-id": "GXvnmt9Og2eB0Ms1ysiWN",
         "x-gtw-span-id": "1",
         "x-gtw-api-time": "18"
       },

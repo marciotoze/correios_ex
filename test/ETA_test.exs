@@ -14,7 +14,7 @@ defmodule CorreiosEx.ETATest do
     params = %{cepDestino: "71930000", cepOrigem: "70902000"}
     service_code = "04162"
 
-    use_cassette "eta#national_3" do
+    use_cassette "eta/national#3" do
       assert {200, %{"dataMaxima" => _}, _response} =
                national(client, service_code, params)
     end
@@ -39,7 +39,7 @@ defmodule CorreiosEx.ETATest do
       ]
     }
 
-    use_cassette "eta#national_2" do
+    use_cassette "eta/national#2" do
       resource = national(client, body)
       {_, body, _} = resource
 
@@ -52,7 +52,7 @@ defmodule CorreiosEx.ETATest do
     params = %{cepDestino: "71930000", cepOrigem: "70902000"}
     service_code = "45110"
 
-    use_cassette "eta#international_import_3" do
+    use_cassette "eta/international_import#3" do
       assert {200, %{"dataMaxima" => _}, _response} =
                international_import(client, service_code, params)
     end
@@ -62,7 +62,7 @@ defmodule CorreiosEx.ETATest do
     params = %{sgPaisOrigem: "BR", sgPaisDestino: "US", dtPostagem: "14-08-2025"}
     service_code = "45110"
 
-    use_cassette "eta#international_export_3" do
+    use_cassette "eta/international_export#3" do
       assert {200, %{"prazoMaximo" => _, "prazoMinimo" => _}, _response} =
                international_export(client, service_code, params)
     end

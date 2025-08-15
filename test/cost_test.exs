@@ -14,7 +14,7 @@ defmodule CorreiosEx.CostTest do
     params = %{cepDestino: "71930000", cepOrigem: "70902000", psObjeto: 300}
     service_code = "04162"
 
-    use_cassette "cost#national_3" do
+    use_cassette "cost/national#3" do
       assert {200, %{"pcFinal" => _}, _response} =
                national(client, service_code, params)
     end
@@ -41,7 +41,7 @@ defmodule CorreiosEx.CostTest do
       ]
     }
 
-    use_cassette "cost#national_2" do
+    use_cassette "cost/national#2" do
       resource = national(client, body)
       {_, body, _} = resource
 
@@ -54,7 +54,7 @@ defmodule CorreiosEx.CostTest do
     params = %{sgPaisDestino: "US", cepOrigem: "70902000", psObjeto: 300}
     service_code = "45110"
 
-    use_cassette "cost#international_3" do
+    use_cassette "cost/international#3" do
       assert {200, %{"pcFinal" => _}, _response} = international(client, service_code, params)
     end
   end
@@ -80,7 +80,7 @@ defmodule CorreiosEx.CostTest do
       ]
     }
 
-    use_cassette "cost#international_2" do
+    use_cassette "cost/international#2" do
       resource = international(client, body)
       {_, body, _} = resource
 
