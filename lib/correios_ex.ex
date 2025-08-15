@@ -65,6 +65,6 @@ defmodule CorreiosEx do
   end
 
   def authorization_header(%{access_token: token}, headers) do
-    headers ++ [{"Authorization", "token #{token}"}]
+    headers ++ [{"Authorization", "Bearer #{token}"}]
   end
 end

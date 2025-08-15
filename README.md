@@ -44,7 +44,7 @@ client = CorreiosEx.Client.new(
 that is (almost) the priority order that we should implement this API
 
 - [x] Token
-- [ ] Prazo v3
+- [x] Prazo v3
 - [ ] Preço v3
 - [ ] Meu Contrato
 - [ ] CEP v3

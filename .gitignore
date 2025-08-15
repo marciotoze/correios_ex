@@ -21,3 +21,6 @@ correios_ex-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Ignore secret config
+config/config.secret.exs

@@ -3,7 +3,7 @@
     "request": {
       "options": [],
       "body": "{}",
-      "url": "https://apihom.correios.com.br/token/v1/autentica",
+      "url": "https://api.correios.com.br/token/v1/autentica",
       "headers": {
         "User-agent": "correios_ex",
         "Authorization": "***",
@@ -15,17 +15,17 @@
     "response": {
       "binary": false,
       "type": "ok",
-      "body": "{\"ambiente\":\"HOMOLOGACAO\",\"id\":\"<ID>\",\"ip\":\"187.10.205.39, 192.168.1.8\",\"perfil\":\"PJ\",\"cnpj\":\"<CNPJ>\",\"categoria\":\"Id0\",\"emissao\":\"2025-08-15T00:35:11\",\"expiraEm\":\"2025-08-16T00:35:11\",\"zoneOffset\":\"-03:00\",\"token\":\"<TOKEN>\"}",
+      "body": "{\"ambiente\":\"PRODUCAO\",\"id\":\"<ID>\",\"ip\":\"187.10.205.39, 192.168.1.131\",\"perfil\":\"PJ\",\"cnpj\":\"<CNPJ>\",\"categoria\":\"Id0\",\"emissao\":\"2025-08-14T21:37:00\",\"expiraEm\":\"2025-08-15T21:37:00\",\"zoneOffset\":\"-03:00\",\"token\":\"<TOKEN>\"}",
       "headers": {
-        "Date": "Fri, 15 Aug 2025 03:38:38 GMT",
+        "Date": "Fri, 15 Aug 2025 05:40:52 GMT",
         "Content-Type": "application/json",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
         "Vary": "Origin",
-        "X-RateLimit-Remaining": "4",
+        "X-RateLimit-Remaining": "6",
         "X-RateLimit-Requested-Tokens": "1",
-        "X-RateLimit-Burst-Capacity": "6",
-        "X-RateLimit-Replenish-Rate": "6",
+        "X-RateLimit-Burst-Capacity": "9",
+        "X-RateLimit-Replenish-Rate": "8",
         "Expires": "0",
         "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
         "X-XSS-Protection": "0",
@@ -36,14 +36,13 @@
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "x-gtw-uri-template": "/v1/autentica",
         "x-gtw-retry": "0",
-        "x-gtw-cluster": "hom-bsb",
-        "x-gtw-user": "hgimporthom",
+        "x-gtw-cluster": "prod2-bsb",
+        "x-gtw-user": "flinaimports",
         "x-gtw-pfl": "PJ",
         "x-gtw-service-id": "token",
-        "x-gtw-req-id": "eqipQR7dLvxwUO9bSMNcD",
+        "x-gtw-req-id": "LadGQofoRfDKEflAyVrVT",
         "x-gtw-span-id": "1",
-        "x-gtw-api-time": "17",
-        "Set-Cookie": "LBhomint=2604204042.47873.0000; path=/; Httponly; Secure"
+        "x-gtw-api-time": "18"
       },
       "status_code": 201
     }

@@ -2,8 +2,8 @@
   {
     "request": {
       "options": [],
-      "body": "{\"numero\":\"9912414279\"}",
-      "url": "https://apihom.correios.com.br/token/v1/autentica/contrato",
+      "body": "{\"numero\":\"9912515762\"}",
+      "url": "https://api.correios.com.br/token/v1/autentica/contrato",
       "headers": {
         "User-agent": "correios_ex",
         "Authorization": "***",
@@ -15,36 +15,35 @@
     "response": {
       "binary": false,
       "type": "ok",
-      "body": "{\"ambiente\":\"HOMOLOGACAO\",\"id\":\"<ID>\",\"ip\":\"187.10.205.39, 192.168.1.8\",\"perfil\":\"PJ\",\"cnpj\":\"<CNPJ>\",\"categoria\":\"Ind\",\"emissao\":\"2025-08-15T00:38:37\",\"expiraEm\":\"2025-08-16T00:38:37\",\"zoneOffset\":\"-03:00\",\"contrato\":{\"numero\":\"9912414279\",\"dr\":72,\"api\":[78,566,586,587,623],\"apis\":[{\"api\":78},{\"api\":566},{\"api\":586},{\"api\":587},{\"api\":623}]},\"token\":\"<TOKEN>\"}",
+      "body": "{\"ambiente\":\"PRODUCAO\",\"id\":\"<ID>\",\"ip\":\"187.10.205.39, 192.168.1.131\",\"perfil\":\"PJ\",\"cnpj\":\"<CNPJ>\",\"categoria\":\"Bz0\",\"emissao\":\"2025-08-14T22:25:42\",\"expiraEm\":\"2025-08-15T22:25:42\",\"zoneOffset\":\"-03:00\",\"contrato\":{\"numero\":\"9912515762\",\"dr\":72,\"api\":[34,35,41,76,78,87,566,586,587],\"apis\":[{\"api\":34},{\"api\":35},{\"api\":41},{\"api\":76},{\"api\":78},{\"api\":87,\"grupos\":[{\"co\":\"2\",\"urls\":[\"*;.*\"]}]},{\"api\":566},{\"api\":586},{\"api\":587}]},\"token\":\"<TOKEN>\"}",
       "headers": {
-        "Date": "Fri, 15 Aug 2025 03:38:38 GMT",
+        "Date": "Fri, 15 Aug 2025 05:40:52 GMT",
         "Content-Type": "application/json",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
         "Vary": "Origin",
-        "X-RateLimit-Remaining": "5",
+        "X-RateLimit-Remaining": "8",
         "X-RateLimit-Requested-Tokens": "1",
-        "X-RateLimit-Burst-Capacity": "6",
-        "X-RateLimit-Replenish-Rate": "6",
+        "X-RateLimit-Burst-Capacity": "9",
+        "X-RateLimit-Replenish-Rate": "8",
         "Expires": "0",
         "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
         "X-XSS-Protection": "0",
         "Pragma": "no-cache",
         "X-Frame-Options": "DENY",
-        "x-gtw-contrato": "9912414279",
+        "x-gtw-contrato": "9912515762",
         "x-pfl": "PJ",
         "X-Content-Type-Options": "nosniff",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "x-gtw-uri-template": "/v1/autentica/contrato",
         "x-gtw-retry": "0",
-        "x-gtw-cluster": "hom-bsb",
-        "x-gtw-user": "hgimporthom",
+        "x-gtw-cluster": "prod2-bsb",
+        "x-gtw-user": "flinaimports",
         "x-gtw-pfl": "PJ",
         "x-gtw-service-id": "token",
-        "x-gtw-req-id": "nbQqPq03ecgHvWgCnt0wB",
+        "x-gtw-req-id": "wLuj0ydzd5gdj2NdEoN8w",
         "x-gtw-span-id": "1",
-        "x-gtw-api-time": "123",
-        "Set-Cookie": "LBhomint=2671312906.47873.0000; path=/; Httponly; Secure"
+        "x-gtw-api-time": "19"
       },
       "status_code": 201
     }

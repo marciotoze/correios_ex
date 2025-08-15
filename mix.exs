@@ -6,6 +6,7 @@ defmodule CorreiosEx.MixProject do
       app: :correios_ex,
       version: File.read!("VERSION"),
       elixir: "~> 1.18",
+      elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       name: "CorreiosEx",
@@ -14,6 +15,10 @@ defmodule CorreiosEx.MixProject do
       docs: &docs/0
     ]
   end
+
+  # Specifies which paths to compile per environment.
+  defp elixirc_paths(:test), do: ["lib", "test/support"]
+  defp elixirc_paths(_), do: ["lib"]
 
   # Run "mix help compile.app" to learn about applications.
   def application do

@@ -11,4 +11,6 @@ if config_env() == :test do
       [pattern: ~S/"id":"[^"]+"/, placeholder: "\"id\":\"<ID>\""]
     ],
     filter_request_headers: ["Authorization"]
+
+  import_config "config.secret.exs"
 end
