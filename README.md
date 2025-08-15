@@ -1,11 +1,17 @@
-# CorreiosEx
+# README
 
-**TODO: Add description**
+<h2 align="center">
+  <br>
+  <a href="https://github.com/marciotoze/correios_ex"><img src="docs/images/correios_ex_logo.png" alt="Correios Ex Logo" width="300"></a>
 
-## Installation
+  Correios Ex
+</h2>
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `correios_ex` to your list of dependencies in `mix.exs`:
+<h4 align="center">A Correios API wrapper.</h4>
+
+## Getting Started
+
+### Installation
 
 ```elixir
 def deps do
@@ -15,7 +21,43 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/correios_ex>.
+### Authentication by Postcard
 
+```elixir
+# Create a client with your credentials
+client = CorreiosEx.Client.new(
+  %{
+    user: "your_user",
+    api_code: "your_api_code"
+  }
+)
+
+# Authenticate using a postcard number
+{status, response, _} = CorreiosEx.Auth.by_postcard(client, %{"numero" => "0073249300"})
+
+# The response will contain:
+# %{"token" => "...", "expiraEm" => "...", "cartaoPostagem" => "..."}
+```
+
+## Correios API coverage:
+
+that is (almost) the priority order that we should implement this API
+
+- [x] Token
+- [ ] Prazo v3
+- [ ] Preço v3
+- [ ] Meu Contrato
+- [ ] CEP v3
+- [ ] Agência v2
+- [ ] Pré-postagem
+- [ ] Webhook
+- [ ] AR Eletrônico
+- [ ] Faturas
+- [ ] País v3
+- [ ] Token - Certificado
+- [ ] SRO - Interatividade
+- [ ] SRO - Rastro
+- [ ] Internacional - Packet
+- [ ] Mensagem Digital - Ext
+
+Disclaimer: this wrapper was heavily inspired by <a href="https://github.com/edgurgel/tentacat">Tentacat</a>
