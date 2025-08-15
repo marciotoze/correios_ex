@@ -39,6 +39,29 @@ client = CorreiosEx.Client.new(
 # %{"token" => "...", "expiraEm" => "...", "cartaoPostagem" => "..."}
 ```
 
+### Cost Calculation
+
+```elixir
+
+client = CorreiosEx.Client.new(%{access_token: <token>})
+
+# Calculate shipping cost for a single package (national)
+params = %{
+  cepDestino: "71930000",    # Destination ZIP code
+  cepOrigem: "70902000",     # Origin ZIP code
+  psObjeto: 300              # Weight in grams
+}
+
+service_code = "04162"  # PAC service code
+
+{status, response, _} = CorreiosEx.Cost.national(client, service_code, params)
+
+# The response will contain:
+# %{"pcFinal" => "12,50", ...}  # Final price and other cost details
+```
+
+
+
 ## Correios API coverage:
 
 that is (almost) the priority order that we should implement this API

@@ -9,6 +9,8 @@ defmodule CorreiosEx.MixProject do
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       deps: deps(),
+      description: description(),
+      package: package(),
       name: "CorreiosEx",
       source_url: "https://github.com/marciotoze/correios_ex",
       homepage_url: "https://github.com/marciotoze/correios_ex",
@@ -47,6 +49,19 @@ defmodule CorreiosEx.MixProject do
       groups_for_modules: [
         Resources: [CorreiosEx.Auth]
       ]
+    ]
+  end
+
+  defp description() do
+    "A Elixir client for the Correios API."
+  end
+
+  defp package() do
+    [
+      name: "correios_ex",
+      files: ~w(lib .formatter.exs mix.exs README* LICENSE*),
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/marciotoze/correios_ex"}
     ]
   end
 end
