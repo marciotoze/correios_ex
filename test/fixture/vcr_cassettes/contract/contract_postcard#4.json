@@ -1,0 +1,45 @@
+[
+  {
+    "request": {
+      "options": [],
+      "body": "\"\"",
+      "url": "https://api.correios.com.br/meucontrato/v1/empresas/29442979000130/contratos/9912515762/cartoes/0076056856",
+      "headers": {
+        "User-agent": "correios_ex",
+        "Authorization": "***",
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "request_body": ""
+    },
+    "response": {
+      "binary": false,
+      "type": "ok",
+      "body": "{\"cnpj\":\"<CNPJ>\",\"nuContrato\":\"9912515762\",\"nuSe\":72,\"nuCartaoPostagem\":\"0076056856\",\"cnpjCartao\":\"29442979000130\",\"dtInicioVigencia\":\"2020-12-29T00:00:00\",\"dtFimVigencia\":\"2030-12-29T00:00:00\",\"status\":\"ATIVO\"}",
+      "headers": {
+        "Date": "Fri, 15 Aug 2025 06:50:04 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Vary": "Origin",
+        "X-RateLimit-Remaining": "54",
+        "X-RateLimit-Requested-Tokens": "1",
+        "X-RateLimit-Burst-Capacity": "55",
+        "X-RateLimit-Replenish-Rate": "50",
+        "x-gtw-uri-template": "/v1/empresas/{cnpj}/contratos/{nuContrato}/cartoes/{nuCartaoPostagem}",
+        "x-gtw-retry": "0",
+        "x-gtw-cluster": "prod2-bsb",
+        "x-gtw-user": "flinaimports",
+        "x-gtw-pfl": "PJ",
+        "x-gtw-service-id": "meucontrato",
+        "x-gtw-contrato": "9912515762",
+        "x-gtw-cartao": "0076056856",
+        "x-gtw-req-id": "dHZItena8EI2pIsf9zfld",
+        "x-gtw-span-id": "1",
+        "x-gtw-api-time": "6",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+      },
+      "status_code": 200
+    }
+  }
+]

@@ -50,7 +50,8 @@ defmodule CorreiosEx.MixProject do
         Resources: [
           CorreiosEx.Auth,
           CorreiosEx.Cost,
-          CorreiosEx.ETA
+          CorreiosEx.ETA,
+          CorreiosEx.Contract
         ]
       ]
     ]

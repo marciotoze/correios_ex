@@ -1,0 +1,45 @@
+[
+  {
+    "request": {
+      "options": [],
+      "body": "\"\"",
+      "url": "https://api.correios.com.br/meucontrato/v1/empresas/29442979000130/contratos/9912515762/cartoes/0076056856/servicos/03298",
+      "headers": {
+        "User-agent": "correios_ex",
+        "Authorization": "***",
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "request_body": ""
+    },
+    "response": {
+      "binary": false,
+      "type": "ok",
+      "body": "{\"codigo\":\"03298\",\"descricao\":\"PAC CONTRATO AG\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"}",
+      "headers": {
+        "Date": "Fri, 15 Aug 2025 06:50:04 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Vary": "Origin",
+        "X-RateLimit-Remaining": "52",
+        "X-RateLimit-Requested-Tokens": "1",
+        "X-RateLimit-Burst-Capacity": "55",
+        "X-RateLimit-Replenish-Rate": "50",
+        "x-gtw-uri-template": "/v1/empresas/{cnpj}/contratos/{nuContrato}/cartoes/{nuCartaoPostagem}/servicos/{coServico}",
+        "x-gtw-retry": "0",
+        "x-gtw-cluster": "prod2-bsb",
+        "x-gtw-user": "flinaimports",
+        "x-gtw-pfl": "PJ",
+        "x-gtw-service-id": "meucontrato",
+        "x-gtw-contrato": "9912515762",
+        "x-gtw-cartao": "0076056856",
+        "x-gtw-req-id": "KTD0fkAIVyAMNFqzp0vW7",
+        "x-gtw-span-id": "1",
+        "x-gtw-api-time": "9",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+      },
+      "status_code": 200
+    }
+  }
+]

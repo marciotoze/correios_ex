@@ -1,0 +1,45 @@
+[
+  {
+    "request": {
+      "options": [],
+      "body": "\"\"",
+      "url": "https://api.correios.com.br/meucontrato/v1/empresas/29442979000130/contratos/9912515762/cartoes/0076056856/servicos",
+      "headers": {
+        "User-agent": "correios_ex",
+        "Authorization": "***",
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "request_body": ""
+    },
+    "response": {
+      "binary": false,
+      "type": "ok",
+      "body": "{\"itens\":[{\"codigo\":\"03140\",\"descricao\":\"SEDEX 12 CONTRATO AG\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03158\",\"descricao\":\"SEDEX 10 CONTRATO AG\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03174\",\"descricao\":\"SEDEX 12 REVERSO\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03182\",\"descricao\":\"SEDEX 10 REVERSO\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03190\",\"descricao\":\"SEDEX HOJE REVERSO\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03204\",\"descricao\":\"SEDEX HOJE CONTRATO AG\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03212\",\"descricao\":\"SEDEX CONTR GRAND FORMATO\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03220\",\"descricao\":\"SEDEX CONTRATO AG\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03247\",\"descricao\":\"SEDEX REVERSO\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03271\",\"descricao\":\"SEDEX CONTRATO PGTO ENTREGA\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03298\",\"descricao\":\"PAC CONTRATO AG\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03301\",\"descricao\":\"PAC REVERSO\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03310\",\"descricao\":\"PAC CONTRATO PGTO ENTREGA\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03328\",\"descricao\":\"PAC CONTR GRAND FORMATO\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03352\",\"descricao\":\"SEDEX KIT\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03662\",\"descricao\":\"SEDEX HOJE EMPRESARIAL\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"03972\",\"descricao\":\"TRANSFER LOG\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"04000\",\"descricao\":\"PAC PC CONTRATO AG\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"04090\",\"descricao\":\"SEDEX PC CONTRATO AG\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"04219\",\"descricao\":\"SEDEX KIT ISENCAO\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"04227\",\"descricao\":\"CORREIOS MINI ENVIOS CTR AG\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"04960\",\"descricao\":\"DESVIO MINI ENVIOS AG\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"05991\",\"descricao\":\"LOGISTICA REVERSA SEDEX PC\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"06378\",\"descricao\":\"BC VENDA CAP DIGITAL PU\",\"coSegmento\":\"1\",\"descSegmento\":\"CONVENIENCIA\"},{\"codigo\":\"06513\",\"descricao\":\"CORREIOSCEL CHIP 2ª VIA FATURA\",\"coSegmento\":\"1\",\"descSegmento\":\"CONVENIENCIA\"},{\"codigo\":\"06521\",\"descricao\":\"CORREIOSCEL RECARGA FATURAR\",\"coSegmento\":\"1\",\"descSegmento\":\"CONVENIENCIA\"},{\"codigo\":\"06530\",\"descricao\":\"CORREIOSCEL RECARGA E CHIP FAT\",\"coSegmento\":\"1\",\"descSegmento\":\"CONVENIENCIA\"},{\"codigo\":\"06580\",\"descricao\":\"SEDEX 10 LOG+\",\"coSegmento\":\"6\",\"descSegmento\":\"LOGISTICA\"},{\"codigo\":\"06599\",\"descricao\":\"SEDEX 12 LOG+\",\"coSegmento\":\"6\",\"descSegmento\":\"LOGISTICA\"},{\"codigo\":\"06602\",\"descricao\":\"SEDEX HOJE LOG+\",\"coSegmento\":\"6\",\"descSegmento\":\"LOGISTICA\"},{\"codigo\":\"06637\",\"descricao\":\"LOGISTICA REVERSA PAC PC\",\"coSegmento\":\"3\",\"descSegmento\":\"ENCOMENDA\"},{\"codigo\":\"10588\",\"descricao\":\"ARMAZENAMENTO FISICO\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"10618\",\"descricao\":\"ARMAZENAMENTO LOGICO\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"10740\",\"descricao\":\"INT PR A4 MON RG FAIXA 1\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"11240\",\"descricao\":\"INT TR A4 MON RG FAIXA 1\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"11312\",\"descricao\":\"E CARTA SIMPLES INTEGRACAO\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"11320\",\"descricao\":\"E CARTA SIMPLES TRANSMISSAO\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"11355\",\"descricao\":\"E CARTA REG INTEGRACAO\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"11363\",\"descricao\":\"E CARTA REG TRANSMISSAO\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"11398\",\"descricao\":\"E CARTA C  AR DIG INTEGRACAO\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"11401\",\"descricao\":\"E CARTA C  AR DIG TRANSMISSAO\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"12017\",\"descricao\":\"CARTA RESP NAC CONVENCIONAL\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"12033\",\"descricao\":\"CARTAO RESPOSTA NACIONAL\",\"coSegmento\":\"8\",\"descSegmento\":\"MARKETING\"},{\"codigo\":\"12246\",\"descricao\":\"CARTAO RESPOSTA NACIONAL CC\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"12629\",\"descricao\":\"V POST TABELA BASE\",\"coSegmento\":\"9\",\"descSegmento\":\"MENSAGEM\"},{\"codigo\":\"14575\",\"descricao\":\"MDPB   NACIONAL   A FATURAR\",\"coSegmento\":\"8\",\"descSegmento\":\"MARKETING\"},{\"codigo\":\"14729\",\"descricao\":\"DEVOLUCAO FISICA\",\"coSegmento\":\"8\",\"descSegmento\":\"MARKETING\"},{\"codigo\":\"14745\",\"descricao\":\"MDPB   LOCAL 1   A FATURAR\",\"coSegmento\":\"8\",\"descSegmento\":\"MARKETING\"},{\"codigo\":\"14753\",\"descricao\":\"MDPB   ESTADUAL   A FATURAR\",\"coSegmento\":\"8\",\"descSegmento\":\"MARKETING\"},{\"codigo\":\"14869\",\"descricao\":\"DEVOLUCAO FISICA NAO RETIRADA\",\"coSegmento\":\"8\",\"descSegmento\":\"MARKETING\"}],\"page\":{\"size\":50,\"totalElements\":208,\"totalPages\":5,\"number\":0}}",
+      "headers": {
+        "Date": "Fri, 15 Aug 2025 06:50:04 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Vary": "Origin",
+        "X-RateLimit-Remaining": "53",
+        "X-RateLimit-Requested-Tokens": "1",
+        "X-RateLimit-Burst-Capacity": "55",
+        "X-RateLimit-Replenish-Rate": "50",
+        "x-gtw-uri-template": "/v1/empresas/{cnpj}/contratos/{nuContrato}/cartoes/{nuCartaoPostagem}/servicos",
+        "x-gtw-retry": "0",
+        "x-gtw-cluster": "prod2-bsb",
+        "x-gtw-user": "flinaimports",
+        "x-gtw-pfl": "PJ",
+        "x-gtw-service-id": "meucontrato",
+        "x-gtw-contrato": "9912515762",
+        "x-gtw-cartao": "0076056856",
+        "x-gtw-req-id": "S1kLbyzlTxkNHGRVTQpLW",
+        "x-gtw-span-id": "1",
+        "x-gtw-api-time": "45",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+      },
+      "status_code": 200
+    }
+  }
+]

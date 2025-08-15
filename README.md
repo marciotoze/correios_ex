@@ -69,7 +69,7 @@ that is (almost) the priority order that we should implement this API
 - [x] Token
 - [x] Prazo v3
 - [x] Preço v3
-- [ ] Meu Contrato
+- [x] Meu Contrato
 - [ ] CEP v3
 - [ ] Agência v2
 - [ ] Pré-postagem
