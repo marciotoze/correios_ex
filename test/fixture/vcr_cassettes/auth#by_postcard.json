@@ -1,0 +1,53 @@
+[
+  {
+    "request": {
+      "options": [],
+      "body": "{\"numero\":\"0073249300\"}",
+      "url": "https://apihom.correios.com.br/token/v1/autentica/cartaopostagem",
+      "headers": {
+        "User-agent": "correios_ex",
+        "Authorization": "***",
+        "Content-Type": "application/json"
+      },
+      "method": "post",
+      "request_body": ""
+    },
+    "response": {
+      "binary": false,
+      "type": "ok",
+      "body": "{\"ambiente\":\"HOMOLOGACAO\",\"id\":\"<ID>\",\"ip\":\"10.80.141.253\",\"perfil\":\"PJ\",\"cnpj\":\"<CNPJ>\",\"categoria\":\"Ind\",\"emissao\":\"2025-08-14T10:23:21\",\"expiraEm\":\"2025-08-15T10:23:21\",\"zoneOffset\":\"-03:00\",\"cartaoPostagem\":{\"contrato\":\"9912414279\",\"numero\":\"0073249300\",\"dr\":72,\"api\":[78,83,566,586,587,623],\"apis\":[{\"api\":78},{\"api\":83},{\"api\":566},{\"api\":586},{\"api\":587},{\"api\":623}]},\"token\":\"<TOKEN>\"}",
+      "headers": {
+        "Date": "Fri, 15 Aug 2025 03:38:38 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Vary": "Origin",
+        "X-RateLimit-Remaining": "5",
+        "X-RateLimit-Requested-Tokens": "1",
+        "X-RateLimit-Burst-Capacity": "6",
+        "X-RateLimit-Replenish-Rate": "6",
+        "Expires": "0",
+        "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+        "X-XSS-Protection": "0",
+        "Pragma": "no-cache",
+        "X-Frame-Options": "DENY",
+        "x-gtw-contrato": "9912414279",
+        "x-gtw-cartao": "0073249300",
+        "x-pfl": "PJ",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "x-gtw-uri-template": "/v1/autentica/cartaopostagem",
+        "x-gtw-retry": "0",
+        "x-gtw-cluster": "hom-bsb",
+        "x-gtw-user": "hgimporthom",
+        "x-gtw-pfl": "PJ",
+        "x-gtw-service-id": "token",
+        "x-gtw-req-id": "0EfnR0x7oOuidA6EJYU1w",
+        "x-gtw-span-id": "1",
+        "x-gtw-api-time": "19",
+        "Set-Cookie": "LBhomint=2604204042.47873.0000; path=/; Httponly; Secure"
+      },
+      "status_code": 201
+    }
+  }
+]
